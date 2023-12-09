@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> Timer and Stopwatch </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <div>
+        <div>
+            <h1 class="heading"> Timer and Stopwatch </h1>
+        </div>
+        <div class="main">
+        <div class="container1">
+            <h1>Stopwatch</h1>
+            <div id="stopwatch" class="time-display">00:00:00</div>
+            <button id="startbutton" onclick="startStopwatch()">Start</button>
+            <button id="stopbutton" onclick="stopStopwatch()">Stop</button>
+            <button id="resetbutton" onclick="resetStopwatch()">Reset</button>
+        </div>
+    
+    
+        <div class="container2">
+            <h1>Timer</h1>
+            <div id="timer" class="time-display">00:00:00</div>
+            <input type="text" id="timerInput" placeholder="Enter duration in seconds">
+            <button id="startTimerButton" onclick="startTimer()">Start</button>
+            <button id="cancelTimerButton" onclick="cancelTimer()">Cancel</button>
+        </div>
+        </div>
+        
+        <div class="footer">
+            <h1> Thank You </h1>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>  
+    </body>
+</html>
